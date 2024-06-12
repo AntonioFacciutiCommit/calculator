@@ -6,7 +6,7 @@ class Calculator
 
     add(number)
     {
-        this.result = this.result + number;
+        this.result = this.result - number;
 
         return this;
     }
